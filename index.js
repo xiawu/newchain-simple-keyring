@@ -1,8 +1,8 @@
 const EventEmitter = require('events').EventEmitter
-const Wallet = require('ethereumjs-wallet')
-const ethUtil = require('ethereumjs-util')
+const Wallet = require('newchainjs-wallet')
+const ethUtil = require('newchainjs-util')
 const type = 'Simple Key Pair'
-const sigUtil = require('eth-sig-util')
+const sigUtil = require('newchain-sig-util')
 
 class SimpleKeyring extends EventEmitter {
 
