@@ -1,8 +1,8 @@
 const assert = require('assert')
-const ethUtil = require('ethereumjs-util')
-const sigUtil = require('eth-sig-util')
+const ethUtil = require('newchainjs-util')
+const sigUtil = require('newchain-sig-util')
 const SimpleKeyring = require('../')
-const EthereumTx = require('ethereumjs-tx').Transaction
+const EthereumTx = require('newchainjs-tx').Transaction
 const { expect } = require('chai')
 
 const TYPE_STR = 'Simple Key Pair'
